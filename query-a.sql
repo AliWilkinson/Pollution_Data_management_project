@@ -1,0 +1,1 @@
+SELECT Date_Time, Location, MAX(NOx) FROM `readings` JOIN `site` ON readings.Site_ID = site.Site_ID WHERE readings.Date_Time < '2023-00-00 00:00:00' AND readings.Date_Time >= '2022-00-00 00:00:00';

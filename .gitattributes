@@ -1,0 +1,2 @@
+*.csv filter=lfs diff=lfs merge=lfs -text
+air-quality-data-2003-2022.csv filter=lfs diff=lfs merge=lfs -text

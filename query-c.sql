@@ -1,0 +1,1 @@
+SELECT site.Site_ID, site.Location, AVG(`PM2.5`), AVG(`VPM2.5`) FROM `site` JOIN `readings` ON site.Site_ID = readings.Site_ID WHERE readings.Date_Time >= '2010-00-00 00:00:00' AND readings.Date_Time < '2023-00-00 00:00:00' GROUP BY site.Site_ID;
